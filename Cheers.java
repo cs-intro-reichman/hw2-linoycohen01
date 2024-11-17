@@ -5,7 +5,6 @@ public class Cheers {
             String CapsLetter = Cheer.toUpperCase();
             int times = Integer.parseInt(args[1]);
             String letters = "AEFHILMNORSX";
-            System.out.println(CapsLetter + times);
             for (int i = 0; i < CapsLetter.length(); i++)
             {
                 char current = CapsLetter.charAt(i);

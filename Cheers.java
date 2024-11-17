@@ -13,9 +13,8 @@ public class Cheers {
             }
            if (times != 0){
             System.out.println("What does that spell?");
-           }
-            for (int i = 0; i < times; i++){
+           for (int i = 0; i < times; i++){
                 System.out.println(CapsLetter + "!!!");
-            }
+            }}
         }
 }

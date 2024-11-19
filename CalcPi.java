@@ -8,13 +8,10 @@ public class CalcPi {
 		{
 			if (i % 2 == 0){
 				sum -= (1 / m);
-				System.out.println(sum);
 			} else if (i % 2 != 0){
 				sum += (1 / m);	
-				System.out.println(sum);
 			}
 			m += 2;
-			System.out.println(m);
 		}
 		System.out.println("pi according to Java:" + Math.PI);
 		System.out.println("pi, approximated:    " + (sum * 4));

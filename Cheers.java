@@ -5,7 +5,7 @@ public class Cheers {
             String CapsLetter = Cheer.toUpperCase();
             int times = Integer.parseInt(args[1]);
             String letters = "AEFHILMNORSX";
-            for (int i = 0; i < CapsLetter.length() && (times != 0); i++)
+            for (int i = 0; i < CapsLetter.length(); i++)
             {
                 char current = CapsLetter.charAt(i);
                 System.out.println("Give me " + ((letters.indexOf(CapsLetter.charAt(i)) == -1) ? "a  " : "an ")
